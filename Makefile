@@ -1,4 +1,5 @@
 DC := ldc2
+SED := sed
 DCFLAGS := -O3
 
 
@@ -12,3 +13,9 @@ test: afuck
 	./afuck examples/helloworld.af
 
 .PHONY: clean
+
+examples/a.aaf:
+examples/helloworld.aaf:
+
+%.aaf: %.af
+	$(SED) -f tr.sed $? > $@
