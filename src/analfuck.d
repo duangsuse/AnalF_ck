@@ -70,7 +70,7 @@ void run(wstring src) {
 
   // parsing
   for (int i = 0; i < src.length; i++) {
-    int restLength = src.length - i;
+    int restLength = cast(int) src.length - i;
 
     if (iiyo.length <= restLength && iiyo == src[i..i+iiyo.length]) {
       cmds ~= Command.IIYO;
