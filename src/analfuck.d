@@ -45,14 +45,14 @@ import std.stdio;
 
 const BUFFER_SIZE = 30000;
 
-const iiyo    = "いいよ！"w;
-const koiyo   = "来いよ！"w;
-const ahFull  = "アーッ！"w;
-const ahHalf  = "ｱｰｯ!"w;
-const anosa   = "あのさぁ…"w;
-const akusiro = "あくしろよ"w;
-const fa      = "ファッ！"w;
-const koko    = "こ↑こ↓"w;
+const iiyo    = "好啊！"w;
+const koiyo   = "来啊！"w;
+const ahFull  = "啊！"w;
+const ahHalf  = "啊!"w;
+const anosa   = "那个啊…"w;
+const akusiro = "做啊"w;
+const fa      = "野兽！？"w;
+const koko    = "这↑里↓"w;
 
 enum Command {
   IIYO,
