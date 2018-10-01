@@ -113,7 +113,7 @@ void run(wstring src) {
       continue;
     }
   }
-  
+
 //  writeln(cmds);
 
   // executing
@@ -124,7 +124,7 @@ void run(wstring src) {
 
   for (int p = 0; p < cmds.length; p++) {
     auto c = cmds[p];
-    
+
 //    writeln(c, " ", i, " ", cast(int)b[i]);
 
     switch (c) {
@@ -181,7 +181,7 @@ void run(wstring src) {
     case Command.KOKO:
       readf("%c", &b[i]);
       break;
-    
+
     default:
       assert(false);
     }
