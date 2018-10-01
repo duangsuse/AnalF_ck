@@ -118,7 +118,7 @@ void run(wstring src) {
 
   // executing
   int i = 0;
-  char b[BUFFER_SIZE];
+  char [BUFFER_SIZE] b;
   int[] iiyoStack = [];
   for (int j = 0; j < BUFFER_SIZE; j++) b[j] = 0;
 

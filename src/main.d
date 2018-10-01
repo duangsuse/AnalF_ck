@@ -2,7 +2,7 @@ import std.stdio;
 
 static import analfuck;
 
-void main(string args[]) {
+void main(string [] args) {
   wstring src;
 
   foreach (path; args[1..$]) {
